@@ -1,0 +1,41 @@
+.my-custom-btn{
+    font-family:monospace !important;
+}
+.gab{
+    font-family: serif;
+}
+.mon{
+    font-family:serif;
+}
+.image-container{
+    display:flex;
+    gap: 1px;
+    padding: 100px;
+    
+    
+   
+    
+
+    
+}
+.text-box{
+    background-color:white;
+    padding: 15px;
+    flex-direction: column;
+    justify-content:center ;
+    border-radius: 1px;
+    box-shadow: 0 0 10px ;
+    object-fit: cover;
+}
+
+.price{
+    color:green;
+    font: bolder;
+    font-family: sans-serif;
+    
+}
+.span{
+    color: #000;
+    font-size: small;
+    text-decoration: line-through;
+}

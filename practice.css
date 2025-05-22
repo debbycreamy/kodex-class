@@ -1,0 +1,124 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+header {
+    background-color: plum;
+}
+nav {
+    background-color: blue;
+    
+}
+section {
+    /* background-color: brown; */
+    /* alwasy add background image in sections and not header{background repeat for duplicated image}background size to cover or contain */
+  background-image: url(Third_slide.png);
+  height: 700px;
+  background-size: cover;
+  background-attachment: scroll;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.54);
+  color: azure;
+  
+
+}
+
+section p {
+    padding: 20px;
+    /* border; border width, style, and color. you can use border bottom for demacation or unferlining effect */
+    border: 10px solid paleturquoise;
+    /* font-family: ; */
+    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
+}
+section a {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+.circle{
+    width: 500px;
+    height: 500px;
+    border-radius: 500px;
+    background-color: #00ffff;
+    box-shadow: 10px 10px 30px pink;
+    /* background-image: radial-gradient(ellipse, blue,green, yellow); */
+    cursor: crosshair;
+}
+section .thirdSlide {
+    /* filter: grayscale(); */
+    filter: blur(10px);
+}
+.height{
+    width: 100%;
+    height: 400px;
+    background-color: blueviolet;
+    color: aliceblue;
+}
+.unit{
+    width: 50%;
+    height: 400px;
+    background-color: chocolate;
+    color: aliceblue;
+}
+.widthcal{
+    background-color: chartreuse;
+    width: 600px;
+    height: 300px;
+}
+.child{
+    background-color: crimson;
+    width: 300px;
+    height: 150px;
+}
+/* vh and wh means the part you can see on your screen at a time */
+/* overflow property */
+.image {
+    width: 700px;
+    height: 600px;
+    background-color: blue;
+}
+.imagee {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: bottom;
+    opacity: ;
+}
+/* Box model, padding and margin[padding inline means left and right together] while pading block is fir top and bottom.*/
+.boxone {
+    background-color: crimson;
+    font-size: 24px;
+    height: 500px;
+    width: 500px;
+    padding: 40px;
+    border-left: 10px solid black;
+    /* border: 10px solid black; */
+    /* border-radius: 20px; */
+    border-top: 10px dashed yellowgreen;
+    margin: 20px;
+    text-align: justify;
+    text-decoration: underline;
+    text-shadow: 20px 1px 10px  pink;
+    /* left and right[20px] top and bottom[1px] amount of blurryness[10px] */
+    text-transform: uppercase;
+    /* transform: rotate(90deg); */
+}
+.boxone:hover{
+    transform: scale(1.1);
+    transform: skew(-10deg);
+    transform: translate(300px);
+
+}
+/* box sizing from the top;it means evn with padding and margin the congtent will fit in the original size by minusing */
+.boxtwo{
+    background-color: blue;
+    font-size: 24px;
+    height: 500px;
+    width: 500px;
+    margin: 60px;
+    /* box-sizing: border-box; */
+}

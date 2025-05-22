@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    
+}
+li{
+    list-style: none;
+}
+nav{
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+    padding-inline: 3rem;
+    align-items: center;
+    padding-block:1rem ;
+
+}
+.nav-link{
+   display: flex; 
+   gap: 30px;
+   
+}
+.nav-link a{
+    color: white;
+}
+
+.box{
+    background-color: brown;
+}
+
+
+
+
+
+
+@media screen and (max-width:767px) {
+    .nav-link a{
+        color: blue;
+}
+ 
+

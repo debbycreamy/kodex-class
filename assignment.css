@@ -1,0 +1,61 @@
+*{
+    /* margin: 0;
+    padding: 2px;
+    box-sizing: border-box; */
+}
+
+.box{
+    background-color:black;
+    padding: 500px;   
+}
+.insidebox{
+    background-color: rgba(39, 37, 37, 0.679);
+   /* padding: 40px 20px; */
+   margin: 7px;
+   border-radius: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 30px;
+   padding-bottom: 20px;
+   height: vh;
+   
+}
+.image{
+    height: 80px;
+    width: 80px;
+    border-radius: 80px;
+    background-color: aliceblue;
+    justify-content: center;  
+    align-items: center;
+    margin-left: 50px;
+    
+}
+.button{
+    padding: 8px;
+    margin: 6px;
+    background-color: rgb(50, 50, 51);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+   
+    
+    
+}
+.london{
+    color: darkolivegreen;
+    margin: 20px;
+    padding-bottom: px;
+    margin-bottom: -10px;
+}
+.name{
+    color: white;
+    margin: 20px;
+    margin-bottom: -10px;
+    font-size: 22px;
+    
+}
+.front{
+    color: white;
+    margin: 20px;
+    font-size: 10px;
+}

@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.nav1{
+    background-color:rgb(201, 201, 200);
+    padding: 15px;
+   
+}
+.nav2{
+    background-color: white;
+    padding: 15px;
+   
+}
+.header1{
+    width: 100%;
+    position: static;
+    min-height: 100vh;
+    overflow: hidden;
+    
+}
+.header-child{
+    width: 100%;
+    position: relative;
+   
+}
+.robort-img{
+    object-fit: cover;
+    height: 116vh;
+    position: relative;
+     
+    
+   
+}
+.circle{
+    
+    overflow: visible;
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    bottom: 200px;
+    margin-left:40px;
+}
+header{
+overflow: visible;
+position: absolute;
+margin-left: 70px;
+bottom: 50px;
+font-size: 50px;
+color: white;
+padding-left: 50px;
+padding-top: 10px;
+}
+.header-child{
+    margin-left: 70px;
+/* bottom: 50px; */
+bottom: 5px;
+position: absolute;
+color: aliceblue;
+font-family: sans-serif;
+font-size: 20px;
+padding-left: 50px;
+margin-top:40px;
+}
+.container{
+    background-color: white;
+    height: 100vh;
+    padding-left: 100px;
+}
+.tech{
+    padding-top: 10px;
+    color: #000;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    font-size: 1.25rem;
+}
+.human-robot{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: purple;
+    font-size: 75px;
+    font-family: sans-serif;
+    position: relative;
+    z-index: 2;
+    
+
+}
+.dash{
+    color: aqua;
+    background-color: aqua;
+    margin-right: 720px;
+    overflow: visible;
+position: relative;
+bottom: 50px;
+/* z-index: 1; */
+
+
+    
+}
+.human{
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-bottom: 65px;
+}
+.link{
+    text-decoration: none;
+    padding-top: 20px;
+    border-style: solid;
+    border-color: aqua;
+    padding: 10px;
+    padding-block: 8px;
+    padding-inline: 30px;
+    
+}
+.droplet-img{
+    width: 300px;
+    height: 400px;
+    margin-top: -500px;
+    margin-left: 750px;
+    overflow: hidden;
+    position: absolute;
+}
+.round{
+    height: 400px;
+    width: 400px;
+    border-radius: 400px;
+    margin-left:500px ;
+    position: absolute;
+    overflow: hidden;
+}
+.container-two{
+    display:block ;
+    height: 100vh;
+    background-color:rgb(133, 94, 210);
+    padding-left: 100px; 
+}
+.img-1{
+    height: 500px;
+    width: 200px;
+    overflow: ;
+    object-fit: contain;
+   
+    
+
+}
+.img-2{
+    height: 400px;
+    width: 300px;
+    object-fit: contain;
+    
+}
+.img-3{
+    height: 400px;
+    width: 300px;
+    object-fit: contain;
+    
+}
+.img-4{
+    height: 400px;
+    width: 300px;
+    object-fit: contain;
+    padding-left: 20px;
+}
+.max{
+    padding-left: 700px;
+    color: white;
+}
+.container-three{
+    background-color: white;
+    height: 100vh;
+}
+.tech2{
+    padding-top: 10px;
+    color: #000;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: 1.25rem;
+    padding-left: 100px;
+    font-weight: 500;
+}
+.robotic{
+    padding-top: 10px;
+    padding-left: 100px;
+    color: purple;
+    font-size: 70px;
+    font-family: sans-serif;
+    font-weight: 700;  
+}
+.container-three-child{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding-right: 200px;
+    padding-top: 120px;
+    font-size:23px;
+    font-weight:lighter;
+}
+h3{
+    color: purple;
+    padding-bottom: 20px;
+}
+.droplet-img2{
+    width: 300px;
+    height: 400px;
+    margin-top: -100px;
+    margin-left: 1000px;
+    overflow: hidden;
+    position: absolute;
+    z-index: ;
+    
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    position: absolute;
+    bottom: -1700px;
+    left: 120px;
+    color: aqua;
+    
+}
+.logo2{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    position: absolute;
+    bottom: -1700px;
+    left: 400px; 
+    color: aqua;
+}
+.logo3{
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    position: absolute;
+    bottom: -1700px;
+    left: 700px; 
+    color: aqua; 
+}
+.container-four{
+    background-image:linear-gradient( yellow, red, purple);
+    height: 100vh;
+}
+.drop{
+    width: 400px;
+    height: 400px;
+    margin-top: -100px;  
+}
+.container-four-child{
+    margin-left: 400px;
+    font-size: 24px;
+    font-weight: 100;
+    color: white;
+    margin-bottom: 40px;
+    
+}
+.jeff{
+    margin-left: 950px;
+    font-size: 24px;
+    padding-top: 30px;
+    color: white;
+}
+.container-five{
+    background-color: rgb(53, 0, 128);
+    height: 100vh;
+}
+.robotcar1{
+    height: 300px;
+    width: 700px;
+    padding-left: 50px;
+    bottom:100px;
+    position: relative;
+}
+.robotcar2{
+    height: 200px; 
+    width: 370px;  
+    position: relative; 
+    margin-left: -430px;
+    bottom: -40px;
+}
+.aqua{
+    background-color: aqua;
+    padding: 7px;
+    margin-left: 190px;
+    position: relative;
+    bottom: 70px;
+    rotate: 90deg;
+    color: aqua;
+    width: 140px;
+}
+.container-five-child{
+    padding-left: 750px;
+    padding-top: 90px;
+    
+   
+}
+.images{
+    position: relative; 
+    
+    bottom: 300px; 
+}
+.concept{
+    color: white;
+    font-size: 50px;
+    font-weight:600;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+    z-index: 1;
+    position: relative;
+    
+}
+.ilike{
+    color: white;
+    font-size: 24px;
+    font-weight: lighter;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.dash2{
+    color: aqua;
+    background-color: aqua;
+    width: 400px;
+    position: relative;
+bottom: 33px;
+padding: -10px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .header1{
+        width: 100%;
+        
+        
+    } 
+}

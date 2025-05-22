@@ -1,0 +1,70 @@
+/* universal selectors  */
+/* * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+} */
+
+
+
+h1{
+    background-color: blueviolet;
+    color: rgb(55, 227, 17);
+    border: 2px solid rgb(242, 14, 78);
+    
+
+}
+ .lor{
+    background-color: aqua;
+ }
+ .similar{
+    background-color: brown;
+    color:wheat;
+ }
+ #boom{
+    background-color: blue;
+ }
+ /* decendant combinator */
+ .group p {
+   border: 1px dashed brown;
+   background-color: chocolate;
+   color: azure;
+ }
+ /* child combinatir */
+ .group > div > p{
+   background-color: aquamarine;
+   color: #000;
+ }
+ /* group selector */
+ .group > h1,
+ .group > p {
+   background-color: black;
+   color:white;
+ }
+ /* adjacent simbling combinator */
+ .group > h1 + p {
+   background-color: darkgreen;
+   color: red;
+ }
+ /* pseudo classes */
+ .psu a {
+   background-color: blue;
+   color:white;
+   margin: 30px;
+   padding: 3px;
+   border: #000;
+   border-radius: 6px;
+ }
+
+ .psu a:hover{
+   background-color: aquamarine;
+ }
+ /* .psu a:link{
+   background-color: chocolate;
+ }
+ .psu a:visited {
+   background-color: black;
+ }
+ .psu a:active {
+   background-color: chartreuse;
+ } */

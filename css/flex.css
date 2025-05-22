@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex-container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    /* justify content SPACE BETWEEN spreads the items acrosss to contain/fit the line */
+    justify-content:center;
+    background-color: #8a2be2;
+    align-items: center;
+    height: 100vh;
+    
+
+}
+
+.item{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    /* display NONE the elemnt wont show on the browser */
+    /* display INLINE the elemnt behaves like an inline elemnt i.e it would be on a straight line and wont take height and width */
+    /* displayy INLINE BLOCK starihgt line but takes width and height */
+    /* display: none; */
+    /* display: inline-block; */
+    /* display:flex; */
+    /* when an iktem cannot fit a div remove the height */
+    
+    
+    
+    
+    /* display FLEX WRAP goes to the next line once it cant be contained on the first line */
+
+}
+a{
+    /* inline elemnts dosnt take amy lenght and width while block cannot */
+    /* but adding display of BLOCK can change it to work like a block level element */
+    background-color: blue;
+    width: 200px;
+    height: 300px;
+    /* display: block; */
+}
